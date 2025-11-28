@@ -2,22 +2,14 @@
 
 ### Installation
 
-To use the simshady CLI, the simshady module must first be built, then the CLI can be executed.
-
-    # move into simshady directory
-    cd /path/to/simshady
-
-    # build module 
-    npx tsup or tsup
+    # install simshady temporarly and execute it directly
+    npx @openpv/simshady run --simulation-geometry ...
     
-    # optional: link simshady cli
-    npm link
-    
-    # run cli
-    # if linked
+    # or install simshady globally with 
+    npm install -g @openpv/simshady
+
+    # then run the cli
     simshady run --simulation-geometry ...
-    # else (must be executed inside simshady directory)
-    npm simshady run --simulation-geometry ...
     
 
 ### Example Usage
